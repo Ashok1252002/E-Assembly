@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/E-Assembly/static/css/main.a617e044.chunk.css",
+    "main.js": "/E-Assembly/static/js/main.97b28d25.chunk.js",
+    "main.js.map": "/E-Assembly/static/js/main.97b28d25.chunk.js.map",
+    "runtime-main.js": "/E-Assembly/static/js/runtime-main.bd91cd2e.js",
+    "runtime-main.js.map": "/E-Assembly/static/js/runtime-main.bd91cd2e.js.map",
+    "static/js/2.6850e9be.chunk.js": "/E-Assembly/static/js/2.6850e9be.chunk.js",
+    "static/js/2.6850e9be.chunk.js.map": "/E-Assembly/static/js/2.6850e9be.chunk.js.map",
+    "static/js/3.283cfeb7.chunk.js": "/E-Assembly/static/js/3.283cfeb7.chunk.js",
+    "static/js/3.283cfeb7.chunk.js.map": "/E-Assembly/static/js/3.283cfeb7.chunk.js.map",
+    "index.html": "/E-Assembly/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/E-Assembly/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.6850e9be.chunk.js.LICENSE.txt": "/E-Assembly/static/js/2.6850e9be.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd91cd2e.js",
+    "static/js/2.6850e9be.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.97b28d25.chunk.js"
+  ]
+}
