@@ -1,9 +1,10 @@
+import AppContainer from "./Containers/App/index";
 import "./App.css";
 
 function App() {
 	return (
 		<div className="App">
-			<h1>Hello E-Assembly Team TEST-Deploy-MUMMLY</h1>
+			<AppContainer />
 		</div>
 	);
 }

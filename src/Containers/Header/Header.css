@@ -1,0 +1,24 @@
+.header-container {
+	min-height: 50px;
+	width: 100%;
+	background-color: skyblue;
+	color: black;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 4%;
+}
+
+.categories {
+	width: 40%;
+	justify-content: space-between;
+}
+
+.categories a {
+	text-decoration: none;
+	color: black;
+}
+
+.info {
+	width: 20%;
+	justify-content: space-between;
+}
