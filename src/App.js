@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
 	return (
 		<div className="App">
-			<h1>Hello E-Assembly Team TEST-Deploy-1</h1>
+			<h1>Hello E-Assembly Team TEST-Deploy-MUMMLY</h1>
 		</div>
 	);
 }
