@@ -1,23 +1,47 @@
 import React from "react";
-import "./Header.css";
+import "./Navbar.css";
+import { BsSearch, BsGlobe } from "react-icons/bs";
+import { AiFillCaretDown, AiFillCaretUp } from "react-icons/ai";
 
-function Header() {
-	return (
-		<div className="header-container flex-row">
-			<div className="categories flex-row">
-				<div className="logo">MUMMLY</div>
-				<a href="#">list1</a>
-				<a href="#">list2</a>
-				<a href="#">list3</a>
-				<a href="#">list4</a>
-			</div>
-			<div className="info flex-row">
-				<div>search</div>
-				<div>premium</div>
-				<div>login</div>
-			</div>
-		</div>
-	);
-}
+const Navbar = () => {
+  return (
+    <div className="header">
+      <div className="header-container">
+        <div className="left">
+          <img
+            class="logo-image"
+            src="https://res.cloudinary.com/drenxtuen/image/upload/v1635351826/HAL/Brand%20Icon/Green_fork_leaf_food_restaurant_logo_1_n0xnrz.svg"
+            alt="Logo"
+            className="logo"
+          />
+          <ul className="menu-items">
+            <li>Pastry</li>
+            <li>Beverages</li>
+            <li>Pasta</li>
+            <li>Chinese</li>
+            {/* <span className="arrow-dropdown">
+              <AiFillCaretDown />
+            </span> */}
+            <li>Salads</li>
+          </ul>
+        </div>
+        <div className="right">
+          <BsSearch className="search" />
+          <div className="language">
+            {/* <BsGlobe className="globe" /> */}
+            {/* <span className="language-name">EN</span> */}
+            {/* <span className="lang-arrow-dropdown">
+              <AiFillCaretDown />
+            </span> */}
+          </div>
+          <div className="btn">
+            <div className="sign-in-btn">Sign In</div>
+            <button className="subscribe-btn">Premium</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default Header;
+export default Navbar;
