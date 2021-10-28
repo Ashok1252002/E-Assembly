@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
-import { BsSearch, BsGlobe } from "react-icons/bs";
-import { AiFillCaretDown, AiFillCaretUp } from "react-icons/ai";
+import { BsSearch } from "react-icons/bs";
+// import { AiFillCaretDown, AiFillCaretUp } from "react-icons/ai";
 
 const Navbar = () => {
   return (
