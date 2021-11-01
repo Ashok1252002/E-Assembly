@@ -8,7 +8,7 @@ export default function Caro() {
       <Carousel className="carousel">
         <Carousel.Item>
           <img
-            className="d-block w-100 img"
+            className="d-block w-100 "
             src="https://blogs.biomedcentral.com/on-medicine/wp-content/uploads/sites/6/2019/09/iStock-1131794876.t5d482e40.m800.xtDADj9SvTVFjzuNeGuNUUGY4tm5d6UGU5tkKM0s3iPk-620x342.jpg"
             alt="First slide"
           />
