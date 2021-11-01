@@ -1,12 +1,12 @@
 import React from "react";
-import Carousel from "../Carousel/Carousel";
+import Caro from "../Carousel/Caro";
 import Navbar from "../Header/index";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Carousel />
+      <Caro />
     </div>
   );
 }

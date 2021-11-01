@@ -1,8 +1,9 @@
 .flex-row {
-	display: flex;
-	flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: black;
 }
