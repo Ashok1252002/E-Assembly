@@ -1,0 +1,60 @@
+.footer {
+	background-color: black;
+	position: fixed;
+	bottom: 0;
+	color: #9e9e9c;
+	min-height: 9rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.store-icon {
+	width: 135px;
+	height: 40px;
+	cursor: pointer;
+}
+
+.media-icon {
+	object-fit: contain;
+	width: 40px;
+	font-size: 40px;
+	cursor: pointer;
+}
+
+.media-icon:hover {
+	color: #1f80e0;
+}
+
+.block-1 {
+	width: 40%;
+}
+
+.block-1_1_1,
+.block-1_1_2,
+.block-1_1_3 {
+	overflow-x: initial;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: capitalize;
+	display: inline-block;
+	cursor: pointer;
+	padding: 0 20px 0 0;
+	color: rgba(255, 255, 255, 0.8);
+	margin: 10px;
+}
+
+.block-1_1_1:hover,
+.block-1_1_2:hover,
+.block-1_1_3:hover {
+	color: #1f80e0;
+}
+
+.block-1_2_1 {
+	padding-right: 15%;
+	font-size: 12px;
+	line-height: 1.8;
+	font-weight: 400;
+	color: #dadada;
+}
